@@ -1,0 +1,30 @@
+/* CartWidget.css */
+
+/* Estilos para el widget del carrito */
+.cart-widget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre el carrito y los enlaces */
+    position: relative;
+}
+
+/* Estilo del ícono del carrito */
+.cart-icon {
+    font-size: 28px;
+    color: white;
+}
+
+/* Estilo del contador de productos en el carrito */
+.cart-quantity {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
